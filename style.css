@@ -1,0 +1,28 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+	background: lightgreen;
+}
+
+tbody tr:nth-child(even) {
+	background: lightblue;
+}
+
+tbody th {
+	font-weight: normal;
+	font-style: italic;
+}
+
+tbody td:nth-child(2) {
+	color: red;
+}
+
+tbody td:nth-child(4) {
+	color: blue;
+}
+
+dt:hover + dd {
+	background-color: purple;
+}
